@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="admin.css">
+	
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	
+    <title>Панель администратора</title>
+	<link rel="shortcut icon" href="..\images\head.svg"/>
+</head>
+<body class="body">
+	<header class="header">
+			<div class="wrapper">
+				<div class="header_container">
+				
+					<div class="header_logo">
+						<a href="..\index.html" class="header_logo_link">
+							<img src="..\images\head.svg" class="logo_img">
+							<img src="..\images\name.svg" class="logo_name">
+						</a>
+					</div>
+					
+					<div class="header_finder">
+						<input type="text" class="header_finder_input" placeholder="Поиск по сайту">
+						<img src="..\images\poisk.svg" class="header_finder_img">
+					</div>
+					
+					<div class="header_nav">
+						<ul class="header_list">
+							<li class="header_item">
+								<a href="#!" class="header_link">8-950-XXX-XX-ХХ</a>
+							</li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+		</header>
+		
+    <form id="admin_panelForm" class="admin_panelForm">
+		<input type="text" id="pageSelector" class="product_input" placeholder="Каталог товара (proc, gpu, motherboard, ram)">
+		<input type="text" id="product_name_input" class="product_input" placeholder="Имя товара">
+		<input type="text" id="product_description_input" class="product_input" placeholder="Описание товара">
+		<input type="text" id="product_price_input" class="product_input" placeholder="Цена товара">
+		<input type="file" id="product_review_input" class="product_input_file" accept="image/*" placeholder="Оценка товара">
+		<input type="file" id="product_img_input" class="product_input_file" accept="image/*" placeholder="Изображение товара">
+		<button class="add_button">Добавить товар</button>
+	</form>
+	
+		<footer class="footer">
+			<div class="wrapper">
+			
+				<div class="footer_container">
+				
+					<div class="footer_nav">
+						<ul class="footer_list">
+							<li class="footer_item">
+								<div class="footer_text">Контакты</div>
+							</li>
+							<li class="footer_item">
+								<div class="footer_text2">
+									<img src="..\images\footer-contact.svg" class="footer_nav_img">
+									<div>8-950-XXX-XX-ХХ</div>
+								</div>
+							</li>
+							<li class="footer_item">
+								<div class="footer_text2">
+									<img src="..\images\footer-time.svg" class="footer_nav_img">
+									<div>Ежедневно с 9:00 до 20:00</div>
+								</div>
+							</li>
+							<li class="footer_item">
+								<a href="https://maps.app.goo.gl/WWq8vPVvDc8qJatb8" target="_blank" class="footer_link">
+									<img src="..\images\footer-address.svg" class="footer_nav_img">
+									<div>Новочеркасск, ул. Просвещения, 132</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="footer_social">
+						<a href="https://vk.com/" target="_blank" class="footer_social_link">
+							<img src="..\images\vk.svg" class="footer_social_img">
+						</a>
+						<a href="https://web.telegram.org/" target="_blank" class="footer_social_link">
+							<img src="..\images\telegram.svg" class="footer_social_img">
+						</a>
+						<a href="https://www.youtube.com/" target="_blank" class="footer_social_link">
+							<img src="..\images\youtube.svg" class="footer_social_img">
+						</a>
+					</div>
+				
+				</div>
+			
+			</div>
+		</footer>
+		
+	<script src="admin_panel.js"></script>
+
+	
+</body>
+</html>

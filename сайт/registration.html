@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Refresh" content="" />
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="styles\registration.css">
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+		
+		<title>Все Комплектухи - регистрация</title>
+		<link rel="shortcut icon" href="images\head.svg"/>
+	</head>
+	<body class="body">
+		<header class="header">
+			<div class="wrapper">
+				<div class="header_container">
+				
+					<div class="header_logo">
+						<a href="index.html" class="header_logo_link">
+							<img src="images\head.svg" class="logo_img">
+							<img src="images\name.svg" class="logo_name">
+						</a>
+					</div>
+					
+					<div class="header_nav">
+						<ul class="header_list">
+							<li class="header_item">
+								<a href="#!" class="header_link">8-950-XXX-XX-ХХ</a>
+							</li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+		</header>
+		
+		<main class="main">
+			<div class="wrapper">
+				
+				<form class="registration" id="registerForm">
+					
+					<div class="registration_text">Регистрация<a href="index.html" class="close_registration"><img src="close.svg" class="close_img"></a></div>
+					
+					<div class="input_registration">
+						<input type="text" class="login_input" id="loginInput" name="username" placeholder="Логин" required>
+						<input type="text" class="e-mail_input" id="emailInput" name="email" placeholder="Телефон или e-mail" required>
+						<input type="password" class="password_input" id="passwordInput" name="password" placeholder="Пароль" required>
+					</div>
+					<button type="submit" class="registration_button">Зарегистрироваться</button>
+					<a href="login.html" class="login">Есть аккаунт? Вход</a>
+				</form>
+				
+			</div>
+		</main>
+		
+		<script src="scripts/regModal.js"></script>
+		
+	</body>
+</html>
